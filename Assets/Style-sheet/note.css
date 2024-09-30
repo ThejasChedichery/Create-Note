@@ -1,0 +1,97 @@
+body{
+    background: radial-gradient(circle, rgba(147,40,106,1) 9%, rgba(88,121,193,1) 50%, rgba(87,167,180,1) 92%);
+    margin: 60px !important;
+}
+
+#head-Box{
+    width: 100%;
+    height: 50px;
+}
+
+#head-Box>h1{
+    color: #fff;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+} 
+
+#head-Box>h1 img{
+
+    height: 98px;
+    width: 150px;
+    float: left;
+}
+
+#head-Box>button{
+    background-color: rgb(90, 18, 66);
+    color: #fff;
+    width: 240px;
+    height: 55px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    margin-left: 35px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#head-Box>button img{
+
+    width: 40px;
+    height: 45px;
+    margin-right: 9px;
+    
+}
+
+.note-box>div{
+
+    height: 270px; 
+    position: relative;
+    margin:30px 10px !important;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+
+.note-box>div>textarea{
+
+    width: 100%;
+    height: 100%;
+    border-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    margin-top: 18px;
+
+}
+
+
+.note-box>div>i{
+
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    color: white;
+    cursor: pointer;
+    background-color: #0761a6a1;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+
+
+
